@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SlimStarter
 ===========
 
@@ -274,3 +275,9 @@ class SomeActionMiddleware extends Middleware
 ```
 
 In case autoloader cannot resolve your classes, do ```composer dump-autoload``` so composer can resolve your class location
+=======
+slimsms
+=======
+
+Initial build slimsms
+>>>>>>> 3a5a119d5e86937b86284b5fa08025cde44b6267
