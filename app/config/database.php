@@ -7,10 +7,10 @@ $config['database'] = array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => isset($_SERVER['DB1_HOST']) ? $_SERVER['DB1_HOST'] : 'localhost',
-            'database'  => isset($_SERVER['DB1_NAME']) ? $_SERVER['DB1_NAME'] : 'database',
-            'username'  => isset($_SERVER['DB1_USER']) ? $_SERVER['DB1_USER'] : 'root',
-            'password'  => isset($_SERVER['DB1_PASS']) ? $_SERVER['DB1_PASS'] : '',
+            'host'      => isset($_SERVER['DB1_HOST']) ? $_SERVER['DB1_HOST'] : 'tunnel.pagodabox.com:3306',
+            'database'  => isset($_SERVER['DB1_NAME']) ? $_SERVER['DB1_NAME'] : 'bobbie',
+            'username'  => isset($_SERVER['DB1_USER']) ? $_SERVER['DB1_USER'] : 'marya',
+            'password'  => isset($_SERVER['DB1_PASS']) ? $_SERVER['DB1_PASS'] : 'qZp0ITnF',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
